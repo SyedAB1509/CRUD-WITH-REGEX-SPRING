@@ -37,7 +37,7 @@ public class MyController {
 
     @GetMapping("home")
     public String home() {
-        return "Home";
+        return "Hello Everyone";
     }
 
     @GetMapping("employees")
