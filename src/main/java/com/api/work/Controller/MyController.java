@@ -40,6 +40,11 @@ public class MyController {
         return "Hello Everyone";
     }
 
+    @GetMapping("change")
+    public String change() {
+        return "New Change";
+    }
+
     @GetMapping("employees")
     public List<employee> getwork() {
         return this.service.getemployee();
